@@ -5,7 +5,7 @@ const MovieItem = (props) => {
         <div>
             <Card className="text-center"> 
                 <Card.Body>
-                    <Card.Title>{props.myMovie.Title}</Card.Title>
+                    <Card.Title>{props.myMovie.Title}</Card.Title> 
                     <img src={props.myMovie.Poster}></img>
                     <p>{props.myMovie.Year}</p>
                     <Card.Footer></Card.Footer>
